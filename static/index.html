@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Recruit &mdash;Alessia & Shakti</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" id="bdProfiloGiocatore">
+  
+  <div class="site-wrap">
+    <div class="site-mobile-menu-body"></div>
+  </div>
+   
+    <div class="row" id="mainCont">
+
+      <div class="col col-lg-2 d-none d-sm-block d-xs-block"></div>
+      <div class="col col-lg-8 col-sm-12 col-xs-12">
+        <header>
+          <navbar id="navBrM" class="fixed-bottom">
+            <div class="row">
+              <div class="col col-lg-2 d-none d-sm-block d-xs-block"></div>
+              <div class="col col-lg-8  col-xs-12 col-sm-12">
+                <div class="row" style="padding-top: 0.7vh;padding-bottom:0.7vh;">
+                  <div class="col col-lg-4  col-xs-4 col-sm-4 centro"><a class="vociM" href="#"><span class="fa fa-user iconeM"></span><span class="link" hidden> Profilo</span></a></div>
+                  <div class="col col-lg-4  col-xs-4 col-sm-4 centro"><a class="vociM" href="#"><span class="fa fa-paper-plane iconeM"></span><span class="link" hidden> Richieste</span></a></div>
+                  <div class="col col-lg-4  col-xs-4 col-sm-4 centro"><a class="vociM" href="#"><span class="fa fa-futbol-o iconeM"></span><span class="link" hidden> Esplora</span></a></div>
+                </div>
+                <div class="col col-lg-2 d-none d-sm-block d-xs-block"></div>
+              </div>
+            </div>
+          </navbar>          
+        </header>
+
+        <div id="contIntestazione">
+          <div class="row noBordo">
+            <div class="col-lg-1 d-none d-sm-block d-xs-block"></div>
+            <div class="col-lg-9 col-sm-12 col-xs-12">
+              <div class="row" id="contDati">
+                <div class="col col-lg-7 col-sm-7 col-xs-7 noBordoDX noBordoSX">
+                  <div id="contNomeP" class="noBordoDX noBordoSX">
+                    <div>
+                      Lionel Messi
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5 col-sm-5 col-xs-5 noBordoDX noBordoSX">
+                  <div id="contImmagine" style="border:4px solid white;border-radius: 15px;">
+                    <div id="contCaricaImg">
+                      <form class="fileupload" action="caricaFoto" method="post" enctype="multipart/form-data" hidden>
+                        <input type="file" name="upfile" value="" id="btnFormAggFP"  accept='image/*'>
+                        <input type="submit" value="carica" id="btnCaricaFP">
+                      </form>
+                      <div id="btnAggiungiFP">
+                        <p id="croceAggiungiFP">+</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr>
+            </div>
+          </div>
+        </div>
+
+        <div id="conTopAzioni" style="padding-top: 2vh;">
+          <h2 id="titoTopA">Top Azioni</h2>
+          <div class="container-fluid">
+            <div class="row" id="contVideoTop">
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="centro mt-1 videoTopCont">
+                  <video class="video-fluid z-depth-1 videoTop nonCaricato" controls id="videoTop1" muted="muted"><!--loop controls muted-->
+                    <!--<source src="video/primoVideo.mp4" type="video/mp4" />-->
+                  </video>
+                </div>
+              </div>
+              <div class="col-lg-4  col-xs-12 col-sm-12 centro mt-1 videoTopCont" > 
+                <div class="centro mt-1 videoTopCont">
+                  <video class="video-fluid z-depth-1 videoTop nonCaricato" controls  id="videoTop2" muted="muted">
+                    <!--<source src="video/secondoVideo.mp4" type="video/mp4"/>-->
+                  </video>
+                </div>
+              </div>
+              <div class="col-lg-4  col-xs-12 col-sm-12 centro mt-1 videoTopCont">
+                <div class="centro mt-1 videoTopCont">
+                  <video class="video-fluid z-depth-1 videoTop nonCaricato" controls id="videoTop3" muted="muted">
+                    <!--<source src="video/terzoVideo.mp4" type="video/mp4"/>-->
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row" style="padding-top: 2vh;">
+          <div class="col col-lg-4 col-xs-4 col-sm-4 centro"></div>
+          <div class="col col-lg-4 col-xs-4 col-sm-4 centro"><button class="btn btn-outline-light" id="btnDettagli">DETTAGLI GIOCATORE</button></div>
+          <div class="col col-lg-4 col-xs-4 col-sm-4 centro"></div>
+        </div>
+
+        <div id="contPost" style="padding-top: 2vh;margin-top: 2vh;">
+          <h2 id="" class="centro">Post</h2>
+          <button id="aggiungiPost">Aggiungi</button>
+          <div class="container-fluid" id="aggiungiPostScript">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                  <div class="post">
+                    <video class="video-fluid z-depth-1 videoImgPost" muted="muted">
+                      <source src="video/secondoVideo.mp4" type="video/mp4"/>
+                    </video>
+                    <!--*-->
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                      <div class="frontside" style="width: 100%!important;">
+                        <div class="contDescP">
+                          <div class="row">
+                            <div class="col-lg-2 col-xs-2 col-sm-2"></div>
+                            <div class="col-lg-4 col-xs-4 col-sm-4 centro"><i class="fa fa-bolt iconaFul" aria-hidden="true"></i></div>
+                            <div class="col-lg-4 col-xs-4 col-sm-4 centro"><i class="fa fa-eye iconaVis" aria-hidden="true"></i><span class="parVis">&nbsp;700</span></div>
+                            <div class="col-lg-2 col-xs-2 col-sm-2"></div>
+                          </div>
+                          <hr class="hrPost">
+                          <div class="contDettagliPost">
+                            <div class="row">
+                              <div class="col-xs-4 col-sm-4 col-lg-4"><p class="tipoP"><b>Allenamento:</b></p></div>
+                              <div class="col-xs-4 col-sm-4 col-lg-4"><p class="dettP">Partitella</p></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-xs-4 col-sm-4 col-lg-4"><p><b>Data:</b></p></div>
+                              <div class="col-xs-4 col-sm-4 col-lg-4"><p class="dataP">06/04/2020</p></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="backside" style="width: 100%!important;">
+                        <div style="text-align: center;font-weight: bolder;color: white;font-size: 3vh;">Seleziona come:</div>
+                        <div style="text-align: center;">
+                          <button type="button" class="btn btn-outline-success btnInsTop btnInsTop-1" idVideo = "prova" style="color: gray!important;" value="1">1° Top Video</button>
+                          <button type="button" class="btn btn-outline-success btnInsTop btnInsTop-2" idVideo = "prova" style="color: gray!important;" value="1">2° Top Video</button>
+                          <button type="button" class="btn btn-outline-success btnInsTop btnInsTop-3" idVideo = "prova" style="color: gray!important;" value="1">3° Top Video</button>
+                        </div>
+                        <!--<div class="row">
+                          <div class="col-xs-4 col-sm-4 col-lg-4"><p class="tipoP"><b>Allenamento:</b></p></div>
+                          <div class="col-xs-4 col-sm-4 col-lg-4"><p class="dettP">Partitella</p></div>
+                        </div>
+                        <div class="row">
+                          <div class="col-xs-4 col-sm-4 col-lg-4"><p><b>Data:</b></p></div>
+                          <div class="col-xs-4 col-sm-4 col-lg-4"><p class="dataP">06/04/2020</p></div>
+                        </div>-->
+                      </div>
+                      </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                  <div class="post">
+                    <video class="video-fluid z-depth-1 videoImgPost" muted="muted">
+                      <source src="video/terzoVideo.mp4" type="video/mp4"/>
+                    </video>
+                    <div class="contDescP">
+                      <div class="row">
+                        <div class="col-lg-2 col-xs-2 col-sm-2"></div>
+                        <div class="col-lg-4 col-xs-4 col-sm-4 centro"><i class="fa fa-bolt iconaFul" aria-hidden="true"></i></div>
+                        <div class="col-lg-4 col-xs-4 col-sm-4 centro"><i class="fa fa-eye iconaVis" aria-hidden="true"></i><span class="parVis">&nbsp;700</span></div>
+                        <div class="col-lg-2 col-xs-2 col-sm-2"></div>
+                      </div>
+                      <hr class="hrPost">
+                      <div class="contDettagliPost">
+                        <div class="row">
+                          <div class="col-xs-4 col-sm-4 col-lg-4"><p class="tipoP"><b>Partita Campionato:</b></p></div>
+                              <div class="col-xs-4 col-sm-4 col-lg-4"><p class="dettP">vs Atletic Bilbao</p></div>
+                        </div>
+                        <div class="row">
+                          <div class="col-xs-4 col-sm-4 col-lg-4"><p><b>Data:</b></p></div>
+                          <div class="col-xs-4 col-sm-4 col-lg-4"><p class="dataP">06/04/2020</p></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                  <div class="post">
+                    <video class="video-fluid z-depth-1 videoImgPost" muted="muted">
+                      <source src="video/primoVideo.mp4" type="video/mp4"/>
+                    </video>
+                    <div class="contDescP">
+                      <div class="row">
+                        <div class="col-lg-2 col-xs-2 col-sm-2"></div>
+                        <div class="col-lg-4 col-xs-4 col-sm-4 centro"><i class="fa fa-bolt iconaFul" aria-hidden="true"></i></div>
+                        <div class="col-lg-4 col-xs-4 col-sm-4 centro"><i class="fa fa-eye iconaVis" aria-hidden="true"></i><span class="parVis">&nbsp;700</span></div>
+                        <div class="col-lg-2 col-xs-2 col-sm-2"></div>
+                      </div>
+                      <hr class="hrPost">
+                      <div class="contDettagliPost">
+                        <div class="row">
+                          <div class="col-xs-4 col-sm-4 col-lg-4"><p class="tipoP"><b>Parita Champions:</b></p></div>
+                          <div class="col-xs-4 col-sm-4 col-lg-4"><p class="dettP">vs Liverpool</p></div>
+                        </div>
+                        <div class="row">
+                          <div class="col-xs-4 col-sm-4 col-lg-4"><p><b>Data:</b></p></div>
+                          <div class="col-xs-4 col-sm-4 col-lg-4"><p class="dataP">06/04/2020</p></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+       </div>
+
+      </div>
+      <div class="col col-lg-2 d-none d-sm-block d-xs-block"></div>
+      
+    </div>
+
+  
+     
+    <footer class="footer-section" style="background-color: white!important;">
+      <div class="container">
+
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+            <p>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+           </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+
+  
+    
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+
+  
+  <script src="js/main.js"></script>
+
+  <script src="js/script2.js"></script>
+  
+    
+  </body>
+</html>

@@ -1,0 +1,372 @@
+/*GENERICI*/
+
+.centro{
+    text-align: center!important;
+}
+
+#navBrM{
+    /*position: fixed;
+    bottom: 0px;*/
+    z-index: 2;
+    background: linear-gradient(to right, #add100, #7b920a)!important;
+    border-radius: 8px;
+    color: white!important;
+    width: 100%;
+    display: block!important;
+    margin: 0px auto!important;
+    width:40%;
+    /*position: ;*/
+}
+
+.vociM{
+    color: white;
+}
+
+
+.iconeM{
+    font-size: 2.3vh!important;
+}
+
+@media (max-width: 900px) {
+    #navBrM {
+        width: 100%;
+    }
+}
+
+
+.noBordo{
+    padding: 0!important;
+    margin: 0 !important;
+}
+.noBordoDX{
+    padding-right: 0!important;
+    margin-right: 0 !important;
+}
+.noBordoSX{
+    padding-left: 0!important;
+    margin-left: 0 !important;
+}
+.noBordoUP{
+    padding-top: 0!important;
+    margin-top: 0 !important;
+}
+.noBordoDOWN{
+    padding-bottom: 0!important;
+    margin-bottom: 0 !important;
+}
+
+
+/*FINE GENERICI*/
+
+/*PROFILO*/
+  #contImmagine{
+      background-image: url("../immagini/primoIscritto.jpg");
+      height: 25vh;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+  }
+#contIntestazione{
+      padding-top: 2.5vh;
+}
+  @media (max-width: 900px) {
+    #contIntestazione {
+        padding-top: 0px;
+    }
+  }
+
+#contDati{
+
+   /* background: repeating-linear-gradient(
+    -55deg,
+    #00529F,
+    #00529F 10%,
+    #A2214B 10%,
+    #A2214B 20%
+    
+    )
+    ;
+    /*background-image: url("../immagini/campNou.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;*/
+    
+}
+
+#contIntestazione{
+    background: repeating-linear-gradient(
+    -55deg,
+    #00529F,
+    #00529F 10%,
+    #A2214B 10%,
+    #A2214B 20%
+    )
+    ;
+}
+
+
+#contNomeP{
+    width: 100%;
+    height: 25vh;
+    color: white;
+    text-shadow: 1px 1px;
+    display: flex; 
+    align-items: center;  /*Aligns vertically center */
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.0);
+    font-size: 2.5vh;
+
+}
+
+#contImmagine{
+
+}
+
+#nominativoP{
+    color: white;
+    text-shadow: 1px 1px;
+    display: flex; 
+    align-items: center;  /*Aligns vertically center */
+    justify-content: center;
+}
+
+#titoTopA{
+    text-align: center;
+}
+
+#contVideoTop{
+    background-color: #f2f2f2;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.videoTop{
+    max-width: 100%!important;
+    height: 25vh!important;
+    box-shadow:	 #00cc00 10px 10px 5px 0px;
+}
+
+#btnDettagli{
+    background-color:#009900;
+    height: 5vh;
+    border-radius: 8px;
+}
+
+.videoImgPost{
+    max-width: 100%!important;
+    height: 25vh!important;
+}
+
+.hrPost{
+    border: 1px solid #00cc00;
+}
+
+.iconaFul:hover{
+    font-size: 130%;
+    color:  #80ff80;
+}
+
+.parVis{
+    font-size: 80%;
+}
+
+.parLike{
+    font-size: 80%;
+}
+
+#contPost{
+    
+}
+
+.contDescP{
+    background-color:#f2f2f2;
+    padding-bottom: 1vh;
+    height: 20vh;
+}
+
+
+#contCaricaImg{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+}
+
+#btnAggiungiFP{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    height: 30%;
+    width: 20%;
+    background-color: #b3ffb3;
+}
+
+#croceAggiungiFP{
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 4vh;
+    color: white;
+    font-weight: bold;
+}
+
+#croceAggiungiFP:hover{
+    cursor: pointer;
+}
+
+
+
+/******FLIP CARD******/
+	
+.image-flip:hover .backside, .image-flip.hover .backside {
+-webkit-transform: rotateY(0deg);
+-moz-transform: rotateY(0deg);
+-o-transform: rotateY(0deg);
+-ms-transform: rotateY(0deg);
+transform: rotateY(0deg);
+}
+ 
+.image-flip:hover .frontside, .image-flip.hover .frontside {
+-webkit-transform: rotateY(180deg);
+-moz-transform: rotateY(180deg);
+-o-transform: rotateY(180deg);
+transform: rotateY(180deg);
+}
+ 
+.image-flip {
+margin-bottom:200px;
+width: 100%;
+
+}
+ 
+.mainflip {
+-webkit-transition: 1s;
+-webkit-transform-style: preserve-3d;
+-ms-transition: 1s;
+-moz-transition: 1s;
+-moz-transform: perspective(1000px);
+-moz-transform-style: preserve-3d;
+-ms-transform-style: preserve-3d;
+transition: 1s;
+transform-style: preserve-3d;
+position: relative;
+}
+ 
+.frontside, .backside {
+-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-ms-backface-visibility: hidden;
+backface-visibility: hidden;
+-webkit-transition: 1s;
+-webkit-transform-style: preserve-3d;
+-moz-transition: 1s;
+-moz-transform-style: preserve-3d;
+-o-transition: 1s;
+-o-transform-style: preserve-3d;
+-ms-transition: 1s;
+-ms-transform-style: preserve-3d;
+transition: 1s;
+transform-style: preserve-3d;
+position: absolute;
+top: 0;
+left: 0;
+}
+ 
+.frontside {
+-webkit-transform: rotateY(0deg);
+-ms-transform: rotateY(0deg);
+z-index: 2;
+}
+ 
+.backside {
+background:  #1aff1a;
+-webkit-transform: rotateY(-180deg);
+-moz-transform: rotateY(-180deg);
+-o-transform: rotateY(-180deg);
+-ms-transform: rotateY(-180deg);
+transform: rotateY(-180deg);
+height: 20vh;
+}
+ 
+.card, .card-img-top {
+border-radius: 0;
+}
+
+/***********/
+
+/*FINE PROFILO*/
+
+
+/*****POST SCOUT******/
+
+
+.videoImgPostP{
+    width: 100%;
+}
+
+.postC{
+    padding-top: 3vh;
+}
+
+
+#contLogo{
+    background-image: url("../immagini/logoUp-removebg.png");
+    background-size: 100% 100%;
+    height: 7.5vh;
+    width: 24%;
+    margin: 0 auto;
+    margin-top: -1vh;
+}
+
+#trapezoid {
+    /*border-top: 6vh solid #e6e6e6;*/
+    border-top: 6vh solid #ccffcc;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    width: 100%;
+    /*position: absolute;
+    top: 0px;*/
+  }
+
+ #contTipo{
+     padding-top: 7vh;
+     margin-bottom: -2vh;
+ } 
+
+ .scelteP{
+     border-radius: 16px;
+     background-color: #e6e6e6;
+ }
+
+ #scSeguiti{
+     background-color: #00cc00;
+     color: white;
+     font-weight: bolder;
+ }
+
+ .proprietarioPost{
+     width: 100%;
+ }
+
+ .imgProp{
+     background-image: url("..//immagini/primoIscritto.jpg");
+     background-size: 100% 100%;
+     height: 6vh;
+     width: 100%;
+ }
+
+#contDettProp{
+    /*background-color: #f2f2f2;*/
+    width: 100%;
+}
+
+#contNomeProp{
+    color: black;
+    font-weight: bolder;
+}
+/***FINE POST SCOUT****/
